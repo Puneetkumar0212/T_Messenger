@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinjpg"
+    tools:context=".signinpage">
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/signin2"
+        android:alpha=".85"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:layout_marginBottom="105dp"
+            android:hint="Email"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:layout_marginBottom="30dp"
+            android:background="@color/white"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Register" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

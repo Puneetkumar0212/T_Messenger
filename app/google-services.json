@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292524394785",
+    "project_id": "social-ties",
+    "storage_bucket": "social-ties.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292524394785:android:620bd7284463f8c2e4d660",
+        "android_client_info": {
+          "package_name": "com.example.socialties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292524394785-4m3tl2jsvd5u89d4nqd916bj7vo50pqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfrS-SAg9-b0MHMREHSZGB8QytTvDs-jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292524394785-4m3tl2jsvd5u89d4nqd916bj7vo50pqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
